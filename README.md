@@ -36,7 +36,7 @@ Before training, you should download the pre-trained foundation model [DINOv2-ba
 
 ## Training
 
-`--backbone` can be chosen as dinov2-base or dinov2-large; `--aggregation` can be chosen as gem, boq or salad; `--training_dataset` can be chosen as gsv_cities or unified_dataset (to be released).
+`--backbone` can be chosen as dinov2-base or dinov2-large; `--aggregation` can be chosen as gem, boq, or salad; `--training_dataset` can be chosen as gsv_cities or unified_dataset (to be released).
 
 ### Training a single-branch standard VPR model (floating-point features)
 
