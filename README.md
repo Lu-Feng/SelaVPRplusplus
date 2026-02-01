@@ -1,6 +1,6 @@
 # SelaVPR++
 This is the official repository for the IEEE T-PAMI 2025 paper "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition".
-[[IEEE Xplore](https://ieeexplore.ieee.org/document/11229956)] [[arXiv]([https://ieeexplore.ieee.org/document/11229956](https://arxiv.org/pdf/2502.16601))]
+[[IEEE Xplore](https://ieeexplore.ieee.org/document/11229956)] [[arXiv](https://arxiv.org/pdf/2502.16601)]
 
 <img src="image/pipeline.png" width="600px">
 
