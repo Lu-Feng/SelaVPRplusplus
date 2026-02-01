@@ -36,6 +36,8 @@ Before training, you should download the pre-trained foundation model [DINOv2-ba
 
 ## Training
 
+`--backbone` can be chosen as dinov2-base or dinov2-large; `--aggregation` can be chosen as gem, boq or salad; `training_dataset` can be chosen as gsv_cities or unified_dataset
+
 ### Training a single-branch standard VPR model (floating-point features)
 
 ```
@@ -77,6 +79,8 @@ python3 eval_hashing.py --datasets_folder=/path/to/your/datasets_vg/datasets --d
 ```
 
 ## Pretrained models
+
+All models are trained on our unified dataset.
 
 <table style="margin: auto">
   <thead>
