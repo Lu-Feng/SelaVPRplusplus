@@ -1,6 +1,7 @@
 # SelaVPR++
 This is the official repository for the IEEE T-PAMI 2025 paper "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition".
-[[IEEE Xplore](https://ieeexplore.ieee.org/document/11229956)] [[arXiv](https://arxiv.org/pdf/2502.16601)]
+
+[[Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11229956) | [Paper on ArXiv](https://arxiv.org/pdf/2502.16601) | [Model on HF](https://huggingface.co/fenglu96/SelaVPRplusplus)]
 
 <img src="image/pipeline.png" width="600px">
 
@@ -100,7 +101,7 @@ All models are trained on our unified dataset.
       <td align="center">93.3</td>
       <td align="center">94.3</td>
       <td align="center">94.7</td>
-      <td><a href="https://drive.google.com/file/d/1jegM6zuEJRmPkcWvcyuJHMLad2mTcFpU/view?usp=drive_link">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_base.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Re-ranking (binary+float)</td>
@@ -108,7 +109,7 @@ All models are trained on our unified dataset.
       <td align="center">93.3</td>
       <td align="center">94.5</td>
       <td align="center">94.6</td>
-      <td><a href="https://drive.google.com/file/d/1qPSIh_0D4XNOwkv-5Tno7EjVRIzjyT8h/view?usp=drive_link">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_base_rerank.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Standard VPR</td>
@@ -116,7 +117,7 @@ All models are trained on our unified dataset.
       <td align="center">94.4</td>
       <td align="center">94.3</td>
       <td align="center">97.0</td>
-      <td><a href="https://drive.google.com/file/d/1b2DcrhHldlTPdU_yvLQGuF_G2pH5QXko/view?usp=drive_link">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_large.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Re-ranking (binary+float)</td>
@@ -124,7 +125,7 @@ All models are trained on our unified dataset.
       <td align="center">94.4</td>
       <td align="center">94.5</td>
       <td align="center">97.2</td>
-      <td><a href="https://drive.google.com/file/d/1_PH0W1mZDcesF1iIy2hTv6G6x9NM1ig1/view?usp=drive_link">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_large_rerank.pth">LINK</a></td>
     </tr>
   </tbody>
 </table>
