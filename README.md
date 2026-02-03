@@ -3,7 +3,7 @@ This is the official repository for the IEEE T-PAMI 2025 paper "SelaVPR++: Towar
 
 [[Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11229956) | [Paper on ArXiv](https://arxiv.org/pdf/2502.16601) | [Model on HF](https://huggingface.co/fenglu96/SelaVPRplusplus)]
 
-<img src="image/pipeline.png" width="600px">
+<img src="image/pipeline.png" width="900px">
 
 The repository for the SelaVPR work (ICLR 2024) is [HERE](https://github.com/Lu-Feng/SelaVPR).
 
