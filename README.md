@@ -50,7 +50,7 @@ python3 train.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_
 Please run this step after obtaining the standard VPR model, i.e., after running the previous step or directly downloading our trained standard VPR model.
 
 ```
-python3 train_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --epochs_num=25 --lr=0.0004 --patience=12 --train_batch_size=120 --resume=trained_models/SelaVPRplusplus_large.pth --training_dataset=gsv_cities --hashing --rerank
+python3 train_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --epochs_num=25 --lr=0.0004 --patience=12 --train_batch_size=120 --resume=/path/to/trained/model/SelaVPRplusplus_large.pth --training_dataset=gsv_cities --hashing --rerank
 ```
 
 ### Training a single-branch VPR model with hashing binary features
