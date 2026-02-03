@@ -33,7 +33,7 @@ The test dataset should be organized in a directory tree as such:
 
 Before training, you should download the pre-trained foundation model [DINOv2-base](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth) and [DINOv2-large](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth).
 
-
+The MulConvAdapter is defined in `model/adapter.py` and called (for Memory-Efficient MultiConv Adaptation) in `model/vision_transformer.py`. The straight-through estimation (`class STE_binary`) for deep hashing is defined in `model/network.py`. The similarity-constrained loss (`loss2`) for deep hashing is written in `train_rerank.py`.
 
 ## Training
 
