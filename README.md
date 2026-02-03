@@ -50,7 +50,7 @@ python3 train.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_
 Please run this step after obtaining the standard VPR model, i.e., after running the previous step or directly downloading our trained standard VPR model.
 
 ```
-python3 train_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --epochs_num=25 --lr=0.0004 --patience=12 --train_batch_size=120 --resume=trained_models/SelaVPR++_large.pth --training_dataset=gsv_cities --hashing --rerank
+python3 train_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --epochs_num=25 --lr=0.0004 --patience=12 --train_batch_size=120 --resume=trained_models/SelaVPRplusplus_large.pth --training_dataset=gsv_cities --hashing --rerank
 ```
 
 ### Training a single-branch VPR model with hashing binary features
@@ -64,13 +64,13 @@ python3 train_hashing.py --datasets_folder=/path/to/your/datasets_vg/datasets --
 ### Test a single-branch standard VPR model (floating-point features)
 
 ```
-python3 eval.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --resume=/path/to/trained/model/SelaVPR++_large.pth
+python3 eval.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --resume=/path/to/trained/model/SelaVPRplusplus_large.pth
 ```
 
 ### Test a two-branch VPR model with global feature reranking (one hashing feature branch for fast retrieval, and the floating-point feature branch for reranking)
 
 ```
-python3 eval_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --resume=/path/to/trained/model/SelaVPR++_large_rerank.pth --hashing --rerank
+python3 eval_rerank.py --datasets_folder=/path/to/your/datasets_vg/datasets --dataset_name=pitts30k --backbone=dinov2-large --aggregation=gem --resume=/path/to/trained/model/SelaVPRplusplus_large_rerank.pth --hashing --rerank
 ```
 
 ### Test a single-branch VPR model with hashing binary features
@@ -101,7 +101,7 @@ All models are trained on our unified dataset.
       <td align="center">93.3</td>
       <td align="center">94.3</td>
       <td align="center">94.7</td>
-      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_base.pth">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPRplusplus_base.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Re-ranking (binary+float)</td>
@@ -109,7 +109,7 @@ All models are trained on our unified dataset.
       <td align="center">93.3</td>
       <td align="center">94.5</td>
       <td align="center">94.6</td>
-      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_base_rerank.pth">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPRplusplus_base_rerank.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Standard VPR</td>
@@ -117,7 +117,7 @@ All models are trained on our unified dataset.
       <td align="center">94.4</td>
       <td align="center">94.3</td>
       <td align="center">97.0</td>
-      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_large.pth">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPRplusplus_large.pth">LINK</a></td>
     </tr>
     <tr>
       <td>Re-ranking (binary+float)</td>
@@ -125,7 +125,7 @@ All models are trained on our unified dataset.
       <td align="center">94.4</td>
       <td align="center">94.5</td>
       <td align="center">97.2</td>
-      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPR%2B%2B_large_rerank.pth">LINK</a></td>
+      <td><a href="https://huggingface.co/fenglu96/SelaVPRplusplus/resolve/main/SelaVPRplusplus_large_rerank.pth">LINK</a></td>
     </tr>
   </tbody>
 </table>
