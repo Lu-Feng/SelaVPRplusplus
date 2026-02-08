@@ -47,7 +47,7 @@ The MulConvAdapter is defined in `model/adapter.py` and called (for Memory-Effic
 
 ## Training
 
-`--backbone` can be chosen as dinov2-base or dinov2-large; `--aggregation` can be chosen as gem, boq, or salad; `--training_dataset` can be chosen as gsv_cities or unified_dataset (to be released).
+`--backbone` can be chosen as dinov2-base or dinov2-large; `--aggregation` can be chosen as gem, boq, or salad; `--training_dataset` can be chosen as gsv_cities or unified_dataset (See [Here](https://github.com/Tong-Jin01/Unified_dataset)).
 
 ### Training a single-branch standard VPR model (floating-point features)
 
