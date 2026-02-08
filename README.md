@@ -7,9 +7,9 @@ This is the official repository for the IEEE T-PAMI 2025 paper "SelaVPR++: Towar
 
 The repository for the SelaVPR work (ICLR 2024) is [HERE](https://github.com/Lu-Feng/SelaVPR).
 
-The repository for our another work ImAge (NeurIPS 2025) without aggregator is released at ​[HERE](https://github.com/Lu-Feng/ImAge).
-
 The code for obtaining the unified dataset is released at [HERE](https://github.com/Tong-Jin01/Unified_dataset).
+
+The repository for our another work ImAge (NeurIPS 2025) without aggregator is released at ​[HERE](https://github.com/Lu-Feng/ImAge).
 
 To quickly use our SelaVPR++ model, you can use Torch Hub:
 
